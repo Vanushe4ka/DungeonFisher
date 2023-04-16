@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1489287033786134152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1489287033786134158}
+  - component: {fileID: 1489287033786134153}
+  - component: {fileID: 6711823305438130294}
+  m_Layer: 0
+  m_Name: Molnia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1489287033786134158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489287033786134152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.010288352, y: 0.03658564, z: -0.45552045}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1489287033786134153
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489287033786134152}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 1edfc5347033ddc42bf8a32093c59a6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.1, y: 0.27}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &6711823305438130294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489287033786134152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c834acee52d9dcb43a561f0bf66fcbf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  Type: 2
+  Damage: 0
+  Monsters: []
+  SetTime: 0
+  Boom: {fileID: 0}
+  DistanceToTarget: 0
+  TargetMonster: {fileID: 0}
+  SpritesEnergi:
+  - {fileID: 21300000, guid: 2fcc7e46a03a5384280cf7db8f81cee5, type: 3}
+  - {fileID: 21300000, guid: 1242824906992644d89e0be9677ce3b1, type: 3}
+  - {fileID: 21300000, guid: 3fd22524037fa3c40887473ed13ff172, type: 3}
+  - {fileID: 21300000, guid: f8c31aaac151c4548899af4b9530a729, type: 3}
+  - {fileID: 21300000, guid: 88bee7d05af55bb42aa626e5b1131e12, type: 3}
+  - {fileID: 21300000, guid: 51e94ba851780944da71f4bf4f115220, type: 3}
+  - {fileID: 21300000, guid: d99bf41ee1259c844ae165dd945d1b65, type: 3}
+  - {fileID: 21300000, guid: 1d981f7d5b2e5c24eaac3fc360bb2359, type: 3}
+  - {fileID: 21300000, guid: 088dabf7ccd6b7845a959861e6209574, type: 3}
+  - {fileID: 21300000, guid: f467fe7e24279ad489b01b7143c160c4, type: 3}
+  - {fileID: 21300000, guid: 1ad0af799272f424981497523ef7136f, type: 3}
+  - {fileID: 21300000, guid: 2d5fe50d482fa284598c9195b46dba88, type: 3}
+  - {fileID: 21300000, guid: f787650a6a0e9d24b88ae107bc7d7bcc, type: 3}
+  - {fileID: 21300000, guid: faf17a76cc4926c4797502d7c8cfc167, type: 3}
+  - {fileID: 21300000, guid: bf25382ff22c8b444b2c783a86fc8dd3, type: 3}
+  - {fileID: 21300000, guid: 5baad4c1e69a5664e807adfac0d665d2, type: 3}
+  - {fileID: 21300000, guid: aed5918947ffb02419bd02646ab4f574, type: 3}
+  - {fileID: 21300000, guid: 1edfc5347033ddc42bf8a32093c59a6c, type: 3}
+  - {fileID: 21300000, guid: ef2a2abc99ed5fe42842d649889f048c, type: 3}
+  - {fileID: 21300000, guid: e5259ec21caf53a4f8b37c058f7b78cd, type: 3}
+  LevelEndMaxPixels:
+  - {x: 25, y: 0}
+  - {x: 50, y: 1}
+  - {x: 70, y: 2}
+  - {x: 100, y: 3}
